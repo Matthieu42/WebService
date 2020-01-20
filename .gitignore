@@ -1,0 +1,4 @@
+# Project exclude paths
+/eclipse-workspace/appSOAP/bin/
+/eclipse-workspace/javaClient/bin/
+/out/

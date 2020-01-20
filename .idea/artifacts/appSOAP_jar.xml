@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="appSOAP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/appSOAP_jar</output-path>
+    <root id="archive" name="appSOAP.jar">
+      <element id="module-output" name="appSOAP" />
+    </root>
+  </artifact>
+</component>
