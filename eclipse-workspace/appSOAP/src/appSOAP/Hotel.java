@@ -21,4 +21,9 @@ public class Hotel {
 		return chambres.get(number);
 	}
 
+	@WebMethod
+	public ArrayList<Chambre> getAllChambre(int number){
+		return chambres;
+	}
+
 	}

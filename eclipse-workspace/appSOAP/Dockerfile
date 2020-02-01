@@ -1,7 +1,6 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jdk-alpine
 
-COPY appSOAP.jar .
+COPY . /app
 
-EXPOSE 2000
-
-CMD ["/usr/bin/java", "-jar", "appSOAP.jar"]
+RUN ["javac", "-d", "/app/bin/appSOAP",  "/app/src/appSOAP/Main.java","/app/src/appSOAP/Chambre.java","/app/src/appSOAP/Hotel.java"]
+CMD ["java", "-cp", "/app/bin", "appSOAP.Main"]
