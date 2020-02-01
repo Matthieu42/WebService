@@ -42,5 +42,13 @@ public class Chambre {
 		this.occupe = occupe;
 	}
 
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
 }
 
